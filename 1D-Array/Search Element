@@ -1,0 +1,31 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();           //no of test cases
+        for(int m=0; m<T; m++){
+            int A= sc.nextInt();        //length of array;
+            int []C= new int[A];        //Array C
+            for(int i= 0; i<A; i++){
+                C[i]= sc.nextInt();
+            }
+            int B = sc.nextInt();
+            boolean D= false;
+            for(int i=0; i<A; i++){
+                if(C[i]==B){
+                    D=true;
+                }
+            }
+            if(D==true)
+            System.out.println(1);
+            else
+            System.out.println(0);
+        }
+    }
+}
