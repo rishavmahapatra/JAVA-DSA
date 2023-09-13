@@ -1,0 +1,26 @@
+import java.lang.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // YOUR CODE GOES HERE
+        // Please take input and print output to standard input/output (stdin/stdout)
+        // DO NOT USE ARGUMENTS FOR INPUTS
+        // E.g. 'Scanner' for input & 'System.out' for output
+         Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int r= 1; r<=N; r++){
+             for(int st=1;st<=N+1-r;st++){
+                 System.out.print("*");
+             }
+             for(int sp=1; sp<= 2*(r-1) ; sp++){
+                 System.out.print(" ");
+             }
+             for(int st=1;st<=N+1-r;st++){
+                 System.out.print("*");
+             }
+            System.out.println();
+         }
+         
+    }
+}
