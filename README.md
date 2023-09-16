@@ -1,2 +1,2 @@
-# Java Coding
-Repository for all the coding practice I am doing for becoming a better Developer.🧑‍💻
+# Java + DSA
+Repository for all the coding practice I am doing for SDE preparation.🧑‍💻
